@@ -1,0 +1,112 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ========================
+# Virtual Environment
+# ========================
+venv/
+env/
+.venv/
+.env_backup
+
+# ========================
+# Environment Variables
+# ========================
+.env
+.env.local
+.env.production
+!.env.example
+
+# ========================
+# Streamlit
+# ========================
+.streamlit/secrets.toml
+
+# ========================
+# Vector DB / RAG Artifacts
+# ========================
+*.faiss
+*.index
+chroma_db/
+vectorstore/
+embeddings_cache/
+*.pkl
+*.bin
+
+# ========================
+# Model Weights & Large Files
+# ========================
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+models/
+weights/
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+*.out
+
+# ========================
+# Data Files
+# ========================
+data/raw/
+data/processed/
+*.csv
+*.json
+!config/*.json
+*.parquet
+*.db
+*.sqlite
+
+# ========================
+# Testing
+# ========================
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ========================
+# Docker
+# ========================
+.dockerignore
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+*.ipynb
+
+# ========================
+# Temp / OS
+# ========================
+tmp/
+temp/
+*.tmp
+*.bak

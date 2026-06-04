@@ -1,0 +1,36 @@
+streamlit>=1.32.0
+langchain>=0.2.0
+langchain-groq>=0.1.6
+langgraph>=0.1.0
+langchain-community>=0.2.0
+faiss-cpu>=1.7.4
+sentence-transformers>=2.7.0
+requests>=2.31.0
+python-docx>=1.1.0
+biopython>=1.83
+rank-bm25>=0.2.2
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+
+# Production Backend
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+pyjwt>=2.8.0
+python-multipart>=0.0.6
+httpx>=0.25.0
+
+# Database & ORM
+alembic>=1.13.0
+
+# Security
+passlib[bcrypt]>=1.7.4
+cryptography>=41.0.0
+
+# Monitoring & Analytics
+scipy>=1.12.0
+numpy>=1.24.0
+
+# Caching
+redis>=5.0.0
