@@ -287,30 +287,6 @@ Runs a full clinical case through the multi-agent pipeline.
 }
 ```
 
----
-
-## Deployment
-
-### Production Checklist
-
-Refer to [`PRODUCTION_CHECKLIST.md`](PRODUCTION_CHECKLIST.md) for a comprehensive deployment guide covering:
-
-- TLS termination and network security hardening
-- API rate limit configuration and backpressure handling
-- Observability stack setup (metrics, tracing, alerting)
-- Structured error handling and circuit breakers
-- HIPAA / data privacy compliance considerations
-
-### Cloud Targets
-
-| Provider | Recommended Services |
-|---|---|
-| **AWS** | ECS Fargate / Lambda + API Gateway |
-| **GCP** | Cloud Run / App Engine |
-| **Azure** | Container Apps / App Service |
-
----
-
 ## Performance
 
 ### Baseline Benchmarks (single-node, Groq free tier)
